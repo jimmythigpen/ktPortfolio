@@ -5720,6 +5720,9 @@ h6 {
   padding: 50px 0;
   background-color: #f8f8f8; }
 
+.last {
+  padding-bottom: 0; }
+
 .content-section-b {
   padding: 50px 0;
   border-top: 1px solid #e7e7e7;
@@ -5770,8 +5773,9 @@ h6 {
   ul.banner-social-buttons > li:last-child {
     margin-bottom: 0; } }
 footer {
-  padding: 50px 0;
-  background-color: #f8f8f8; }
+  padding: 15px 0 30px 0;
+  background-color: #f8f8f8;
+  text-align: center; }
 
 p.copyright {
   margin: 15px 0 0; }
@@ -5781,5 +5785,8 @@ p.copyright {
 
 .elevator-button {
   cursor: pointer; }
+
+.read-desc {
+  padding-bottom: 5px; }
 
 /*# sourceMappingURL=main.css.map */
