@@ -1386,14 +1386,14 @@ dd {
 @media (min-width: 768px) {
   .dl-horizontal dt {
     float: left;
-    width: 120px;
+    width: 160px;
     clear: left;
-    text-align: left;
+    text-align: right;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap; }
   .dl-horizontal dd {
-    margin-left: 120px; } }
+    margin-left: 180px; } }
 
 abbr[title],
 abbr[data-original-title] {
@@ -5661,11 +5661,11 @@ h6 {
   padding-top: 50px;
   /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
   padding-bottom: 50px;
-  text-align: center;
+  text-align: left;
   color: #f8f8f8;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/intro-bg.jpg) no-repeat center center;
   background-size: cover;
-  height: 600px; }
+  height: 650px; }
 
 .intro-message {
   position: relative;
@@ -5690,23 +5690,25 @@ h6 {
 .intro-message > h3 {
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); }
 
-@media (max-width: 767px) {
-  .intro-message {
-    padding-bottom: 15%; }
-
-  .intro-message > h1 {
+@media (max-width: 991px) {
+  /* .intro-message {
+      padding-bottom: 15%;
+  } */
+  .intro-message h1 {
     font-size: 3em; }
+  .intro-message h3 {
+    font-size: 1.5em; }
 
   /*     ul.intro-social-buttons > li {
       display: block;
       margin-bottom: 20px;
       padding: 0;
   }
-
+  
   ul.intro-social-buttons > li:last-child {
       margin-bottom: 0;
   }
-
+  
   .intro-divider {
       width: 100%;
   } */ }
