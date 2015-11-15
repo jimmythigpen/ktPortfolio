@@ -7,8 +7,7 @@
       duration: 1500
     });
   };
-
-  $('.navbar-nav a, .navbar-brand, html').click(function(e) {
+  $(document).on('click touchstart', function () {
     $('.navbar-collapse').collapse('hide');
   });
 
