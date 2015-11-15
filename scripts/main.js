@@ -7,10 +7,9 @@
       duration: 1500
     });
   };
-  $('body').on('click touchstart', function () {
-    if ($( ".navbar-toggle" ).attr( "aria-expanded" )) {
-      $('.navbar-collapse').collapse('hide');
-    }
+
+  $('.navbar-nav a, .navbar-brand').click(function(e) {
+    $('.navbar-collapse').collapse('hide');
   });
 
   $('a[href*=#]').click(function() {
