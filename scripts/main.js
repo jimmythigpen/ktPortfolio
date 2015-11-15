@@ -8,7 +8,7 @@
     });
   };
 
-  $('.navbar-nav a, .navbar-brand').click(function(e) {
+  $('.navbar-nav a, .navbar-brand, body').click(function(e) {
     $('.navbar-collapse').collapse('hide');
   });
 
