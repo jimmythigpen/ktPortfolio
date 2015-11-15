@@ -22,7 +22,7 @@ $('a[href*=#]').click(function() {
   });
 
 function init_map() {
-		var var_location = new google.maps.LatLng(38.994752,-76.934697);
+		var var_location = new google.maps.LatLng(38.9047,-77.0164);
 
         var var_mapoptions = {
           center: var_location,
