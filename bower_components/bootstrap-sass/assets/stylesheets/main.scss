@@ -1,4 +1,26 @@
 @import 'bootstrap';
+@import 'fontello';
+
+
+i {
+  font-size: 2em;
+  color: #5BC6B9;
+  transition: all 300ms;
+}
+
+.icon-facebook-squared {
+  &:before {
+    margin-left: 0;
+  }
+}
+
+.icon-facebook-squared:hover {
+  color: #48609E;
+}
+
+.icon-linkedin-squared:hover {
+  color: #2477B6;
+}
 
 body,
 html {
@@ -13,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",'fontello',Helvetica,Arial,sans-serif;
     font-weight: 300;
 }
 
