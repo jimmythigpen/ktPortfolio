@@ -26,7 +26,7 @@
     });
 
   function init_map() {
-          var var_location = new google.maps.LatLng(38.8721695,-77.0843011);
+          var var_location = new google.maps.LatLng(38.8435508,-77.0922251);
 
           var var_mapoptions = {
             center: var_location,
