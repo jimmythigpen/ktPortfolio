@@ -30,7 +30,7 @@
 
           var var_mapoptions = {
             center: var_location,
-            zoom: 9,
+            zoom: 10,
             draggable: false,
             scrollwheel: false,
             panControl: false,
